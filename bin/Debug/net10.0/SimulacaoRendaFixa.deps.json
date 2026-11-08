@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SimulacaoRendaFixa/1.0.0": {
+        "runtime": {
+          "SimulacaoRendaFixa.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SimulacaoRendaFixa/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
