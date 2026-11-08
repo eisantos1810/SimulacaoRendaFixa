@@ -27,16 +27,22 @@ json
 {
   "erro": "Taxa anual não pode ser negativa"
 }Regra de Negócio - Tabela Regressiva do IR
-PrazoAlíquota
-Até 180 dias22,5%
-181 a 360 dias20%
-361 a 720 dias17,5%
-Acima de 720 dias15%
+
+Prazo              Alíquota
+Até   180 dias     22,5%
+181 a 360 dias     20%
+361 a 720 dias     17,5%
+Acima de 720 dias  15%
+
 Validações
-Valor aplicado deve ser maior que zeroPrazo em dias deve ser maior que zeroTaxa anual não pode ser negativa
+Valor aplicado deve ser maior que zero
+Prazo em dias deve ser maior que zero
+Taxa anual não pode ser negativa
+
 Tecnologias
 C# / .NET
 Minimal APIComo testar
+
 Com curl:
 bash
 curl -X POST http://localhost:5261/simular -H "Content-Type: application/json" -d '{"valorAplicado":10000,"prazoDias":90,"taxaAnual":0.12}'
