@@ -26,3 +26,4 @@ C:\projects\SimulacaoRendaFixa\obj\Debug\net10.0\refint\SimulacaoRendaFixa.dll
 C:\projects\SimulacaoRendaFixa\obj\Debug\net10.0\SimulacaoRendaFixa.pdb
 C:\projects\SimulacaoRendaFixa\obj\Debug\net10.0\SimulacaoRendaFixa.genruntimeconfig.cache
 C:\projects\SimulacaoRendaFixa\obj\Debug\net10.0\ref\SimulacaoRendaFixa.dll
+C:\projects\SimulacaoRendaFixa\obj\Debug\net10.0\SimulacaoRendaFixa.sourcelink.json

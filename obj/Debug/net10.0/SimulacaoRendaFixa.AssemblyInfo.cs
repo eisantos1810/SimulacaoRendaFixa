@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimulacaoRendaFixa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d52c150f87246b09ad1568f838c4ade300ba645")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimulacaoRendaFixa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimulacaoRendaFixa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

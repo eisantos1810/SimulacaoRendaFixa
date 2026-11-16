@@ -4,8 +4,13 @@ using SimulacaoRendaFixa.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<ICalculadoraService, CalculadoraService>();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.MapPost("/simular", (SimulacaoRequest request, ICalculadoraService service) =>
 {
