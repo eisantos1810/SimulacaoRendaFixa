@@ -13,7 +13,7 @@ public class CalculadoraService : ICalculadoraService
         if (request.TaxaAnual < 0)
             throw new ArgumentException("Taxa anual não pode ser negativa");
 
-        decimal rendimentoBruto = request.ValorAplicado * request.TaxaAnual * request.PrazoDias / 365;
+        decimal rendimentoBruto = request.ValorAplicado * request.TaxaAnual / 100 * request.PrazoDias / 365;
 
         decimal aliquota = request.PrazoDias switch
         {
