@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/SimulacaoRendaFixa
+/bin/Debug/net9.0
+/obj/Debug/net10.0/SimulacaoRendaFixa.AssemblyInfo.cs
+/obj/Debug/net10.0/SimulacaoRendaFixa.AssemblyInfoInputs.cache
